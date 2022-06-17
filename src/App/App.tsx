@@ -1,4 +1,3 @@
-import Input from '../components/common/Input/Input'
 import Footer from '../components/ui/Footer/Footer'
 import Header from '../components/ui/Header/Header'
 import Router from '../router/Router'
@@ -12,7 +11,6 @@ const App: FC = () => {
             <div className="wrapper">
                 <Router/>
                 <Footer/>
-                <Input/>
             </div>
         </>
     )
