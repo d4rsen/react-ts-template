@@ -1,0 +1,16 @@
+@import "src/App/App";
+
+.input {
+    border: 2px solid $--color-blue;
+    padding: 7px;
+    width: fit-content;
+    height: fit-content;
+    transition: $--transition;
+    border-radius: $--border-radius;
+    opacity: 1;
+    background-color: transparent;
+
+    &:disabled {
+        opacity: 0.7;
+    }
+}

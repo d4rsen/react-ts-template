@@ -1,0 +1,48 @@
+$--font-roboto: "Roboto", -apple-system, system-ui, sans-serif;
+$--line-height: 21.79px;
+$--fs-xs: 12px;
+$--fs-s: 16px;
+$--fs-l: 20px;
+$--fs-xl: 24px;
+$--fs-xl: 28px;
+$--fs-xxl: 32px;
+$--fs-heading: 40px;
+$--fw-light: 300;
+$--fw-regular: 400;
+$--fw-bold: 600;
+$--border-radius: 5px;
+$--border-radius-xl: 10px;
+$--border-radius-xxl: 20px;
+$--nav-height: 80px;
+$--transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+$--color-white: #FFF;
+$--color-light-white-blue: #CADDFF4D;
+$--color-red: #EF4158;
+$--color-blue: #0B67AF;
+$--color-gray: #636363;
+$--background-color: #EFF5FF;
+$--background-color-blue: #CADDFF;
+$--background-color-red: #FDDADE;
+$--background-color-dark-gray: #636363;
+
+$miniMobile: 390px;
+$mobile: 480px;
+$tablet: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content
+    }
+}
+
+@mixin miniMobile {
+    @media (max-width: #{$miniMobile}) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content
+    }
+}
